@@ -16,7 +16,6 @@ if d > 10:
 
 media = (a + b + c + d) / 4
 
-
 # if a <= 10 and b <= 10 and c <= 10 and d <= 10:
 #     print('A media e : {}'.format(media))
 # else:
