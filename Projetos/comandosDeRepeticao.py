@@ -19,27 +19,27 @@ while a <= 10:
     a += 1
 
 
-# for i in range(101):
+for i in range(101):
 
-#     div = 0
+    div = 0
 
-#     for x in range(1, i+1):
-#         resto = i % x
-#         if resto == 0:
-#             div += 1
-#     if div == 2:
-#         print('O numero {} e primo'.format(i))
+    for x in range(1, i+1):
+        resto = i % x
+        if resto == 0:
+            div += 1
+    if div == 2:
+        print('O numero {} e primo'.format(i))
 
 
-# a = int(input('digite um valor: '))
+a = int(input('digite um valor: '))
 
-# div = 0
+div = 0
 
-# for x in range(1, a+1):
-#     resto = a % x
-#     if resto == 0:
-#         div += 1
-# if div == 2:
-#     print('O numero {} e primo'.format(a))
-# else:
-#     print('O numero {} nao e primo'.format(a))
+for x in range(1, a+1):
+    resto = a % x
+    if resto == 0:
+        div += 1
+if div == 2:
+    print('O numero {} e primo'.format(a))
+else:
+    print('O numero {} nao e primo'.format(a))

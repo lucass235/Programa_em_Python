@@ -16,28 +16,28 @@ if d > 10:
 
 media = (a + b + c + d) / 4
 
-# if a <= 10 and b <= 10 and c <= 10 and d <= 10:
-#     print('A media e : {}'.format(media))
-# else:
-#     print('Foi informado uma nota errada!')
+if a <= 10 and b <= 10 and c <= 10 and d <= 10:
+    print('A media e : {}'.format(media))
+else:
+    print('Foi informado uma nota errada!')
 
-# a = int(input('Digite o primeiro valor: '))
-# b = int(input('Digite o segundo valor: '))
-# restoA = a % 2
-# restoB = b % 2
-# if restoA == 0 or restoB == 0:
-#     print('Um numero par foi digitado')
-# else:
-#     print('Um numero impar foi digitado')
+a = int(input('Digite o primeiro valor: '))
+b = int(input('Digite o segundo valor: '))
+restoA = a % 2
+restoB = b % 2
+if restoA == 0 or restoB == 0:
+    print('Um numero par foi digitado')
+else:
+    print('Um numero impar foi digitado')
 
-# a = int(input('Primeiro valor : '))
-# b = int(input('Segundo valor : '))
-# c = int(input('Terceiro valor : '))
+a = int(input('Primeiro valor : '))
+b = int(input('Segundo valor : '))
+c = int(input('Terceiro valor : '))
 
-# if a > b and a > c:
-#     print('O maior numero e: {}'.format(a))
-# elif b > a and b > c:
-#     print('O maior numero e: {}'.format(b))
-# else:
-#     print('O maior numero e: {}'.format(c))
-# print('Final do programa')
+if a > b and a > c:
+    print('O maior numero e: {}'.format(a))
+elif b > a and b > c:
+    print('O maior numero e: {}'.format(b))
+else:
+    print('O maior numero e: {}'.format(c))
+print('Final do programa')
